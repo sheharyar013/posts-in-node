@@ -1,0 +1,19 @@
+{
+  "name": "posts-in-node",
+  "version": "1.0.0",
+  "description": "Features Create: Allows the addition of new posts with a title, content, and author. Read: Displays a list of all posts along with their details. Update: Enables the modification of existing posts by their unique identifiers. Delete: Removes posts based on their ID.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.1",
+    "nodemon": "^3.0.1"
+  }
+}
